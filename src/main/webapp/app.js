@@ -18,7 +18,7 @@ function loadXMLDoc(url,cfunc)
 
 function addInformation()
 {
-	loadXMLDoc("http://localhost:8080/myeavesdrop/projects/getResults",function()
+	loadXMLDoc("http://52.32.117.121:8080/myeavesdrop/projects/getResults",function()
 			{
 		if (xmlhttp.readyState==4 && xmlhttp.status==200)
 		{
